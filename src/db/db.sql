@@ -1,0 +1,6 @@
+CREATE DATABASE apinode;
+
+CREATE TABLE apinode.users(
+    id INT AUTO_INCREMENT  NOT NULL PRIMARY KEY,
+    nombre VARCHAR (255) NOT NULL   
+);
